@@ -14,6 +14,7 @@
 		95DAFE4C1E232F1300943281 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95DAFE4A1E232F1300943281 /* LaunchScreen.storyboard */; };
 		95DAFE571E232F1300943281 /* WaveProgressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DAFE561E232F1300943281 /* WaveProgressTests.swift */; };
 		95DAFE621E232F1300943281 /* WaveProgressUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DAFE611E232F1300943281 /* WaveProgressUITests.swift */; };
+		95DAFE721E234CBC00943281 /* XSMLyricsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DAFE711E234CBC00943281 /* XSMLyricsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		95DAFE5D1E232F1300943281 /* WaveProgressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaveProgressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		95DAFE611E232F1300943281 /* WaveProgressUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveProgressUITests.swift; sourceTree = "<group>"; };
 		95DAFE631E232F1300943281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95DAFE711E234CBC00943281 /* XSMLyricsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSMLyricsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				95DAFE481E232F1300943281 /* Assets.xcassets */,
 				95DAFE4A1E232F1300943281 /* LaunchScreen.storyboard */,
 				95DAFE4D1E232F1300943281 /* Info.plist */,
+				95DAFE711E234CBC00943281 /* XSMLyricsView.swift */,
 			);
 			path = WaveProgress;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			files = (
 				95DAFE441E232F1300943281 /* ViewController.swift in Sources */,
 				95DAFE421E232F1300943281 /* AppDelegate.swift in Sources */,
+				95DAFE721E234CBC00943281 /* XSMLyricsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +518,7 @@
 				95DAFE681E232F1300943281 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		95DAFE691E232F1300943281 /* Build configuration list for PBXNativeTarget "WaveProgressTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +527,7 @@
 				95DAFE6B1E232F1300943281 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		95DAFE6C1E232F1300943281 /* Build configuration list for PBXNativeTarget "WaveProgressUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +536,7 @@
 				95DAFE6E1E232F1300943281 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
